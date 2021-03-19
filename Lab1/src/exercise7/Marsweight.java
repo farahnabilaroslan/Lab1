@@ -10,13 +10,13 @@ public class Marsweight {
 		System.out.print("Your weight would be " + realWeight + " kg on Mars.");
 	}
 	
-	static double getEarthWeight()
+	public static double getEarthWeight()
 	{
         System.out.println("Please enter your current Earth weight(kg): ");
         return keyboard.nextDouble();
     }
 	
-	static double computeRealWeight(double weight)
+	public static double computeRealWeight(double weight)
 	{
 		double realWeight = 0;
 		realWeight = (weight * 0.38);
